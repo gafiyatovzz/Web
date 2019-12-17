@@ -1,0 +1,19 @@
+@import url(../__website/__url-heading/__url-heading.css);
+@import url(../__website/__url/__url.css);
+
+.place__website {
+    font-family: 'Inter', Arial, sans-serif;
+    
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 ;
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        display: none;
+    }
+}

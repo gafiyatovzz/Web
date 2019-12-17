@@ -1,0 +1,19 @@
+@import url(../column-one/__corruption/column-one__corruption.css);
+@import url(../column-one/__arrow-icon/column-one__arrow-icon.css);
+
+.additional__column-one {
+    position: relative;
+    background-color: #F36956;
+}
+
+@media (max-width: 1340px) {
+    .additional__column-one {
+        min-height: 309px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .additional__column-one {
+        order: 3;
+    }
+}

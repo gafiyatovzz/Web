@@ -1,0 +1,38 @@
+@import url(../__content-row/__text/__text.css);
+
+.intro__content-row {
+    position: relative;
+    width: 683px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 48px 0 0;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .intro__content-row {
+       width: 692px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .intro__content-row {
+       width: 692px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .intro__content-row {
+       width: 720px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .intro__content-row {
+        width: 100%;
+        font-size: 1rem;
+        line-height: 27px;
+    }
+}

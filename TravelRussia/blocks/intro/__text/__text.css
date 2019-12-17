@@ -1,0 +1,29 @@
+@import url(./_span/_span.css);
+
+.intro__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 24px 0 0;
+}
+
+.intro__text-p {
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .intro__text {
+        font-size: 12px;
+        line-height: 19px;
+        margin: 32px 0 0;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .intro__text {
+        font-size: 12px;
+        line-height: 19px;
+        margin: 32px 0 0;
+    }
+}

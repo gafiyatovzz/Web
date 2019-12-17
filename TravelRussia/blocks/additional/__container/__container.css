@@ -1,0 +1,9 @@
+@import url(./__item/__item.css);
+
+.additional__container {
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-gap: 16px;
+    margin: 72px auto 0;
+}
+

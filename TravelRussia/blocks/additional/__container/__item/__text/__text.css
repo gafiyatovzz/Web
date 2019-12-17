@@ -1,0 +1,9 @@
+.additional__item-text {
+    width: 248px;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    left: 18px;
+    bottom: 30px;
+    margin: 0;
+}

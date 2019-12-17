@@ -1,0 +1,19 @@
+@import url(../column-one/__button/column-one__button.css);
+
+.banner__column-one {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.banner__photo-1 {
+    position: absolute;
+    display: flex;
+    z-index: 10;
+}
+
+@media (max-width: 1340px) {
+    .banner__photo-1 {
+        width: 100vw;
+    }
+}

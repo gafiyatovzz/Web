@@ -1,0 +1,10 @@
+@import url(./__item-bg/__item-bg.css);
+@import url(./__text/__text.css);
+@import url(./__heading/__heading.css);
+
+.additional__item {
+    width: 284px;
+    position: relative;
+    display:flex;
+    align-items:flex-end;
+}

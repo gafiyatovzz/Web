@@ -1,0 +1,29 @@
+@import url(./__search-icon/column-two__search-icon.css);
+
+.header__search {
+    width: 132px;
+    min-height: 100%;
+    background-color:#E0E0E0;
+}
+
+.header__search-line {
+    width: calc(50vw - 132px);
+    min-height: 100%;
+    background-color: #E0E0E0;
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+} 
+
+.header__search:hover>.header__search-line {
+    display: block;
+}
+
+@media (max-width: 1023px) {
+    .header__search {
+        width: 67px;
+    }
+}
+    

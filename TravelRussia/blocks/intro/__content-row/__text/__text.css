@@ -1,0 +1,23 @@
+@import url(./_span/_span.css);
+@import url(./_line/_line.css);
+
+.intro__content-row-text {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 48px 0 0;
+
+}
+
+.intro__content-row-text p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__content-row-text {
+        display: none;
+    }
+}
+

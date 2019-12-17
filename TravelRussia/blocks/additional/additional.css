@@ -1,0 +1,9 @@
+@import url(./content-title/content-title.css);
+@import url(./content-subtitle/content-subtitle.css);
+@import url(./__container/__container.css);
+
+.additional {
+    display: grid;
+    margin: 102px auto 0;
+    color: #fff;
+}

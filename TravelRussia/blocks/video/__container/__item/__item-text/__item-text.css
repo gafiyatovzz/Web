@@ -1,0 +1,26 @@
+.video__item-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .video__item-text {
+        bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1023px)  {
+    .video__item-text {
+        bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 374px)  {
+    .video__item-text {
+        bottom: 16px;
+        width: 100%;
+        left: 16px;
+        margin: 0;
+    }
+}

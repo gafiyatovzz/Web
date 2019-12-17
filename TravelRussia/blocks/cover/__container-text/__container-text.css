@@ -1,0 +1,21 @@
+.cover__container-text {
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 48px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover__container-text {
+        bottom: 40px;
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .cover__container-text {
+        bottom: 24px;
+        width: 100%;
+        margin: 0 auto 0;
+    }
+}

@@ -1,0 +1,18 @@
+.header__menu-group {
+    position: absolute;
+    left: 45px;
+    top: 55px;
+}
+
+.header__menu:hover + .header__menu_active {
+    background: #F36956;
+    display: none;
+}
+
+@media (max-width: 1023px) {
+    .header__menu-group {
+        width: 21px;
+        left: 23px;
+        top: 27px;
+    }
+}

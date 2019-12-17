@@ -1,0 +1,16 @@
+@import url(./content-title/content-title.css);
+@import url(./content-subtitle/content-subtitle.css);
+@import url(./__container/__container.css);
+
+.comments {
+    margin: 102px auto 0;
+    color: #fff;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .comments {
+        margin: 64px auto 0;
+    }
+}

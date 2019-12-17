@@ -1,0 +1,25 @@
+@import url(../lead/__title/__title.css);
+@import url(../lead/__subtitle/__subtitle.css);
+@import url(../lead/__image/__image.css);
+@import url(../lead/__caption/__caption.css);
+
+.lead {
+    color: #fff;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 984px;
+    margin: 48px auto 0;
+    padding: 0;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .lead {
+        min-height: 211px;
+        margin: 31px auto 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+@import url(./__author/__author.css);
+@import url(./__image/__image.css);
+@import url(./__quote/__quote.css);
+
+@media screen and (max-width: 1023px) {
+    .comments__item {
+        display: flex;
+        flex-direction: column;
+    }
+}

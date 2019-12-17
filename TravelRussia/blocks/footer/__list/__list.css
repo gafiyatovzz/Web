@@ -1,0 +1,19 @@
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+
+.footer__list .link{
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer__list {
+        flex-direction: column;
+    } 
+}

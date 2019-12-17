@@ -1,0 +1,20 @@
+@import url(./__quote-p/__quote-p.css);
+
+.comments__item_quote {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 42px 0 0;
+    order: 2;
+} 
+
+@media screen and (max-width: 1023px){
+   .comments__item_quote {
+        font-size: 1rem;
+        line-height: 23px;
+        text-align: left;
+        order: 3;
+        margin: 0;
+    }
+}

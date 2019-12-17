@@ -1,0 +1,23 @@
+@import url(./__item-bg/__item-bg.css);
+@import url(./__icon_play/__icon_play.css);
+@import url(./__duration/__duration.css);
+@import url(./__title/__title.css);
+@import url(./__subtitle/__subtitle.css);
+@import './__item-text/__item-text.css';
+
+.video__item {
+    position: relative;
+    z-index: 23;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.video__item-link {
+    color: #fff;
+}
+
+.video__item:hover .video__item-bg {
+    transform: scale(1.02);
+    transition: .3s ease-in-out;
+}
+

@@ -1,0 +1,35 @@
+.pacient__list {
+    list-style: none;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    color: #f2f2f2;
+    position: absolute;
+    display: none;
+    text-align: left;
+    left: 300px;
+    top: 0;
+}
+
+.nav__pacients:hover, .pacients__list-elem:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.nav__pacients:hover>.pacient__list {
+    display: inline;
+}
+
+.pacients__list-elem {
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 0 0 40px;
+}
+
+
+.pacients__list-elem_link {
+    color: #f2f2f2;
+    text-decoration: none;
+    white-space: pre;
+}

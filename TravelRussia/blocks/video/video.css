@@ -1,0 +1,14 @@
+@import url(./content-title/content-title.css);
+@import url(./content-subtitle/content-subtitle.css);
+@import url(./__container/__container.css);
+
+.video {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+}
+
+.video__item:hover .video__item-bg {
+    opacity: .2;
+    overflow: hidden;
+}
