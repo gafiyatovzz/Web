@@ -1,0 +1,32 @@
+.link__elem {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #F36956;
+    text-decoration: underline;
+    letter-spacing: 0.015rem;
+}
+
+.link__elem:last-child { 
+    margin-bottom: 35px;
+}
+
+.link__elem-li {
+    color: #F36956;
+}
+.link__elem-li:hover {color: black;}
+
+@media (max-width: 1340px) {
+    .link__elem {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 1023px) {
+    .link__elem {
+        font-size: .75rem;
+        width: 336px;
+    }
+}

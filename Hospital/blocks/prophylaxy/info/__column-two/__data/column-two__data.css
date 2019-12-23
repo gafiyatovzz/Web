@@ -1,0 +1,25 @@
+@import url(../__data/__title/data__title.css);
+@import url(../__data/__subtitle/data__subtitle.css);
+@import url(../__data/__table/data__table.css);
+@import url(../__data/__table1/data__table1.css);
+@import url(../__data/__list/data__list.css);
+@import url(../__data/__description/data__description.css);
+
+.column-two__data {
+    margin: 123px auto 0;
+    width: 744px;
+}
+
+@media (max-width: 1340px) {
+    .column-two__data {
+        padding-bottom: calc(106px - 62px);
+        width: 90%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .column-two__data {
+        margin: 45px auto;
+        padding: 0;
+    }
+}

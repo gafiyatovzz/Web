@@ -1,0 +1,16 @@
+@import url(../column-two/__links/column-two__links.css);
+@import url(../column-two/__links/__title/links__title.css);
+@import url(../column-two/__links/__link/links__link.css);
+@import url(../column-two/__links/__link/__elem/link__elem.css);
+
+.additional__column-two {
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #F36956;
+}
+
+@media (max-width: 1023px) {
+    .additional__column-two {
+        order: 2;
+    }
+}

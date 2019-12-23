@@ -1,0 +1,12 @@
+@import url(../__column-two/__data/column-two__data.css);
+
+.info__column-two {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 1550px) {
+    .info__column-two {
+        order: 1;
+    }
+}

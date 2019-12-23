@@ -1,0 +1,17 @@
+.news__title {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.42rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 1340px) {
+     .news__title {
+         font-weight: 600;
+         font-size: 30px;
+         line-height: 35px;
+    }
+}

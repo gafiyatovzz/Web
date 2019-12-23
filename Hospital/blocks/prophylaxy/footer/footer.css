@@ -1,0 +1,16 @@
+@import url(./__container/footer__container.css);
+@import url(./__logo/footer__logo.css);
+
+.footer {
+    background-color: #535353;
+    display: flex;
+    padding: 0 40px;
+    flex-direction: column;
+    position: relative;
+}
+
+@media (max-width: 1023px) {
+    .footer {
+        padding: 0 20px;
+    }
+}

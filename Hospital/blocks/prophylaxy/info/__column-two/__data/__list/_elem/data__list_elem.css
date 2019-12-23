@@ -1,0 +1,16 @@
+.data__list_elem {
+    border-bottom: 1px solid #F36956;
+    margin: 5px 0 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.data__list_elem:last-child {
+    border-top: 1px solid #F36956;
+    margin-top: 61px;
+}
+
+.data__list_elem:hover + .data__table {
+    display: block;
+}

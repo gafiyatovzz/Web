@@ -1,0 +1,17 @@
+.column-one__arrow-icon {
+    margin: 0 0 90px 104px;
+    bottom: 0;
+    position: absolute;
+}
+
+@media (max-width: 1600px) {
+    .column-one__arrow-icon {
+        margin: 0 10px 100px 40px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .column-one__arrow-icon {
+        display: none;
+    }
+}

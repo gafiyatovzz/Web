@@ -1,0 +1,21 @@
+.container__text {
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    font-style: normal;
+    margin: 0;
+}
+
+@media (max-width: 1340px) {
+    .container__text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media (max-width: 660px) {
+    .container__text {
+        width: 330px;
+    }
+}

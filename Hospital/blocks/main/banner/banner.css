@@ -1,0 +1,25 @@
+@import url(../../main/banner/column-one/column-one.css);
+@import url(../../main/banner/column-two/column-two.css);
+
+.banner {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    min-height: 745px;
+    margin: 0;
+    z-index: 90;
+}
+
+@media (max-width: 1340px) {
+    .banner {
+        min-height: 580px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .banner {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}

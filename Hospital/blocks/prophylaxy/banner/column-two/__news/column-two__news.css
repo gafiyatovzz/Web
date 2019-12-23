@@ -1,0 +1,23 @@
+@import url(../__news/__title/news__title.css);
+@import url(../__news/__subtitle/news__subtitle.css);
+
+.column-two__news {
+    background-color:#F36956;
+    margin: 64px auto 100px;
+    width: 80%;
+    max-width: 740px;
+    color: #f2f2f2;
+}
+
+@media (max-width: 1340px) {
+    .column-two__news {
+        margin: 60px auto 0;
+        width: 337px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .column-two__news {
+        margin-top: 46px;
+    }
+}

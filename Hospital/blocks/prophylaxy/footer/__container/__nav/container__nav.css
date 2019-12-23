@@ -1,0 +1,20 @@
+@import url(../__nav/__list/container__nav_list.css);
+@import url(../__nav/__list_elem/nav__list_elem.css);
+@import url(../__nav/__title/container__nav_title.css);
+@import url(../__nav/__triangle/triangle.css);
+
+.container__nav {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: #f2f2f2;
+    position: relative;
+}
+
+@media (max-width: 1340px) {
+    .container__nav {
+        flex-direction: column;
+        justify-items: center;
+        border-bottom: 1px solid #f2f2f2;
+    }
+}

@@ -1,8 +1,3 @@
-@import url(./header/header.css);
-@import url(./banner/banner.css);
-@import url(./additional/additional.css);
-@import url(./footer/footer.css);
-
 a {color: black;}
 
 h4 {margin: 0;}
@@ -17,5 +12,4 @@ h4 {margin: 0;}
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     overflow: hidden;
-
 }

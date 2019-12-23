@@ -1,0 +1,28 @@
+.news-text__subtitle, .prophylaxy__news-text_subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.26rem;
+    line-height: 1.1;
+    color: #f2f2f2;
+    margin: 20px 0 0;
+}
+
+.prophylaxy__news-text_subtitle {
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+.news-text__subtitle_ph {
+    margin: 0;
+}
+
+@media (max-width: 1340px) {
+    .news-text__subtitle {
+        width: 335px;
+        font-size: 12px;
+
+    }
+    .news-text__subtitle_ph {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,31 @@
+@import url(../info/__column-one/info__column-one.css);
+@import url(../info/__column-two/column-two.css);
+
+.info {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    min-height: 1014px;
+    margin: 0;
+    z-index: 90;
+}
+
+@media (max-width: 1550px) {
+    .info {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media (max-width: 1023px) {
+    .info {
+        grid-template-rows: 1fr 591px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 659px) {
+    .info {
+        grid-template-rows: 1fr;}
+}

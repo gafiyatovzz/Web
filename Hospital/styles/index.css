@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
-@import url(../blocks/blocks.css);
-
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url(../blocks/main/main.css);
+@import url(../vendor/font.css);
 
 .page {
     font-family: 'Noto Sans', Arial, sans-serif;

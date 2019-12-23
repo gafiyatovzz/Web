@@ -1,0 +1,25 @@
+.column-one__arrow-icon {
+    margin: 0 10px 100px 60px;
+    bottom: 0;
+    position: relative;
+    align-self: flex-end;
+}
+
+.arrow-icon {
+    margin: 0 0 130px 80px;
+    bottom: 0;
+    position: absolute;
+    align-self: flex-end;
+}
+
+@media (max-width: 1600px) {
+    .column-one__arrow-icon {
+        margin: 0 10px 100px 40px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .column-one__arrow-icon, .arrow-icon{
+        display: none;
+    }
+}

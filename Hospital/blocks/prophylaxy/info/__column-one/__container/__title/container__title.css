@@ -1,0 +1,17 @@
+.container__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 64px;
+    margin: 0 0 37px;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+}
+
+@media (max-width: 1340px) {
+    .container__title {
+        font-size: 30px;
+        line-height: 32px;
+        width: 340px;
+    }
+}

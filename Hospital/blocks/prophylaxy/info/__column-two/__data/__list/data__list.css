@@ -1,0 +1,20 @@
+@import url(../__list/_elem/data__list_elem.css);
+
+.data__list {
+    list-style: none;
+    color: #F36956;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    border-top: 1px solid #F36956;
+    padding: 0;
+    margin: 0 0 62px;
+    display: none;
+}
+
+@media (max-width: 1340px) {
+    .data__list {
+        display: block;
+    }
+}

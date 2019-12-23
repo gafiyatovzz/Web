@@ -1,0 +1,17 @@
+@import url(../__menu_active/__menu-group/header__menu-group_active.css);
+@import url(../__menu_active/__nav/menu-active__nav.css);
+
+.header__menu_active {
+    width: 50vw;
+    height: 1214px;
+    background: #F36956;
+    position: absolute;
+    display: none;
+
+}
+
+.header__logo_active {
+    position: absolute;
+    top: 45px;
+    left: 190px;
+}

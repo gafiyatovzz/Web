@@ -1,0 +1,13 @@
+.triangle {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    display: none;
+    align-items: center;
+}
+
+@media (max-width: 1340px) {
+    .triangle {
+       display: inline;
+    }
+}
