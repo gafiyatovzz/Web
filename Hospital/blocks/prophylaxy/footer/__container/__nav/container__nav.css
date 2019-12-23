@@ -16,5 +16,6 @@
         flex-direction: column;
         justify-items: center;
         border-bottom: 1px solid #f2f2f2;
+        width: 100%;
     }
 }
