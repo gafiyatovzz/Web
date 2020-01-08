@@ -10,14 +10,26 @@
     width: calc(50vw - 132px);
     min-height: 100%;
     background-color: #E0E0E0;
-    z-index: 100;
     position: absolute;
     left: 0;
     top: 0;
     display: none;
 } 
 
-.header__search:hover>.header__search-line {
+.header__search-line_text {
+    width: 75%;
+    background: #E0E0E0;
+    border: none;
+    border-bottom: 1px solid #535353;
+    top: 51px;
+    left: 137px;
+    position: relative;
+    font-size: 34px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+}
+
+.header__search:hover .header__search-line {
     display: block;
 }
 

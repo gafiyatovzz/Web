@@ -2,14 +2,14 @@
 @import url(./__logo/footer__logo.css);
 
 .footer {
-    background-color: #535353;
+    background-color: var(--color-bg-grey);
     display: flex;
     padding: 0 40px;
     flex-direction: column;
     position: relative;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1500px) {
     .footer {
         padding: 0 20px;
     }

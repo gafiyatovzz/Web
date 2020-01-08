@@ -1,0 +1,27 @@
+.sidebar__selector {
+    width: 175px;
+    height: 40px;
+    position: relative;
+    background: #333333;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.sidebar__selector_position {
+    width: 88px;
+    height: 100%;
+    border: 1px solid #333333;
+    background: #f2f2f2;
+    color: #333333;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    position: absolute;
+}
+
+.sidebar__selector_position::before {
+    content: "ВЫКЛ";
+}

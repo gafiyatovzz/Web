@@ -1,15 +1,2 @@
-a {color: black;}
 
-h4 {margin: 0;}
 
-.blocks {
-    margin: 0;
-    font-family: 'Noto Sans', Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
-    overflow: hidden;
-}

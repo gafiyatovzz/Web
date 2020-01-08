@@ -1,0 +1,23 @@
+.feedback__form {
+    position: relative;
+    margin: 34px 20px 0 0;
+    width: 100%;
+}
+
+.feedback__form-comment {
+    width: 100%;
+    position: relative;
+}
+
+.feedback__form:last-child {
+    margin: 34px 0 0 0 ;
+}
+
+@media (max-width: 768px) {
+    .feedback__form {
+        margin: 14px 20px 0 0;
+    }
+    .feedback__form:last-child {
+        margin: 14px 0 0 0;
+    }
+}

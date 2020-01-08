@@ -1,0 +1,17 @@
+.nav__list_elem {
+    text-decoration: none;
+    margin: 0 0 30px;
+    width: 19px;
+    opacity: .5;
+    transition: .1s linear;
+
+}
+
+.nav__list_elem-link {
+    text-decoration: none;
+    width: 100%;
+}
+
+.nav__list_elem:hover {
+    opacity: 1;
+}

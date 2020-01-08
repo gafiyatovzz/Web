@@ -3,7 +3,7 @@
     font-size: 3.44rem;
     line-height: 1.2;
     text-transform: uppercase;
-    color: #F36956;
+    color: var(--color-bg);
     left: 172px;
     top: 58px;
     margin: 0 0 290px;

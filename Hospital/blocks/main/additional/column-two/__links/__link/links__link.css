@@ -2,5 +2,5 @@
 .links__link {
     margin: 0;
     width: 100%;
-    color: #F36956;
+    color: var(--color-bg);
 }

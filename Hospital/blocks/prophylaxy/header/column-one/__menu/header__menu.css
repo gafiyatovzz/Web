@@ -4,7 +4,7 @@
     position: absolute;
     width: 132px;
     min-height: 100%;
-    background-color: #474849;
+    background-color: var(--color-menu-group-contrast);
 }
 
 .header__menu:hover>.header__menu_active {

@@ -2,8 +2,8 @@
     width: 580px;
     height: 88px;
     z-index: 101;
-    background-color: #F36956;
-    margin: 430px auto 0;
+    background-color: var(--color-bg);
+    margin: 366px auto 0;
     color: #f2f2f2;
     font-weight: 500;
     font-size: 1.26rem;
@@ -12,11 +12,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 
-.banner__photo-1 {
-    z-index: 100;
-    position: absolute;
+.column-one__button:hover {
+    color: var(--color-bg);
+    background-color: unset;
+    border: 1px solid var(--color-bg);
 }
 
 @media (max-width: 1340px) {
@@ -34,9 +36,5 @@
         font-size: 14px;
         height: 61px;
         width: 335px;
-    }
-    .banner__photo-1 {
-        min-height: 100%;
-        width: 400px;
     }
 }

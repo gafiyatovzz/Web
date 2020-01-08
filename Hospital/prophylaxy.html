@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="vendor/normalize.css">
-    <link rel="stylesheet" href="styles/prophylaxy.css">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Хвойнинская ЦРБ</title>
 </head>
 
@@ -19,40 +19,42 @@
                         <!-- <h2 class="header__logo_active">Хвойнинская больница</h2> -->
                         <img src="images/svg/logo.svg" alt="Хвойнинская больница" class="header__logo_active">
                         
-                        <div class="menu-active__nav">
-                            <div class="nav__pacients">
-                                <h2 class="pacient__title">Пациентам</h2>
-                                <ul class="pacient__list">
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Расписание</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Основные виды
-деятельности</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Профилактика</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Запись на приём</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">ГОСУСЛУГИ запись 
-на приём</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Написать нам</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Прочая информация</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h2 class="menu-active__nav-services">Платные услуги</h2>
-                            <h2 class="menu-active__nav-about">О нас</h2>
-                            <h2 class="menu-active__nav-corruptions">Противодействие
-коррупции</h2>
-                        </div>
+                        <ul class="menu-active__nav">
+                                <li class="nav__title">Пациентам
+                                    <ul class="nav__list">
+                                        <li class="nav__list_elem">
+                                            <a href="" class="nav__list_elem-link">Расписание</a>
+                                        </li>
+                                        <li class="nav__list_elem">
+                                            <a href="" class="nav__list_elem-link">Основные виды деятельности</a>
+                                        </li>
+                                        <li class="nav__list_elem">
+                                            <a href="" class="nav__list_elem-link">Профилактика</a>
+                                        </li>
+                                        <li class="nav__list_elem">
+                                            <a href="index.html" class="nav__list_elem-link">Запись на приём</a>
+                                        </li>
+                                        <li class="nav__list_elem">
+                                            <a href="" class="nav__list_elem-link">ГОСУСЛУГИ запись на приём</a>
+                                        </li>
+                                        <li class="nav__list_elem">
+                                            <a href="" class="nav__list_elem-link">Написать нам</a>
+                                        </li>
+                                        <li class="nav__list_elem">
+                                            <a href="" class="nav__list_elem-link">Прочая информация</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav__title">Платные услуги</li>
+                                <li class="nav__title">О нас</li>
+                                <li class="nav__title">Противодействие коррупции
+                                    <ul class="nav__list">
+                                        <li class="nav__list_elem">
+                                            <a href="" class="nav__list_elem-link">Комиссия по противодействию коррупции</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                 </div>
             </div>
             <h2 class="header__logo">Хвойнинская больница</h2>
@@ -69,7 +71,9 @@
             </div>
             <div class="header__search">
                 <img src="images/svg/search.svg" alt="Иконка лупы"  class="column-two__search-icon">
-                <div class="header__search-line"></div>
+                <div class="header__search-line">
+                    <input type="text" class="header__search-line_text">
+                </div>
             </div>
         </div>
     </header>
@@ -383,16 +387,16 @@
                 <div class="data__description">
                     <div class="description__container">
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 73.svg" alt="">
+                            <div class="container__elem_img container__elem_img-grey"></div>
                             <p class="container__elem_ph">Все лица данной возрастной &nbsp; группы</p>
                         </div>
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 74.svg" alt="">
+                            <div class="container__elem_img container__elem_img-dark-grey"></div>
                             <p class="container__elem_ph">Ранее не привитые, не болевшие, 
                                     не имеющие сведений и однократно привитые (для кори и краснухи)</p>
                         </div>
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 85.svg" alt="">
+                            <div class="container__elem_img container__elem_img-red"></div>
                             <p class="container__elem_ph">Лица из групп риска по показаниям, призывники (грипп)</p>
                         </div>
                     </div>
@@ -408,49 +412,49 @@
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
 
-                    <table class="data__table">
-                            <tr>
-                                <td class="data__table_row" colspan="10">Месяцы</td>
-                                <td class="data__table_row" colspan="4">Годы</td>
-                            </tr>
-                            <tr>
-                                <td class="data__table_row">0</td>
-                                <td class="data__table_row">1</td>
-                                <td class="data__table_row">2</td>
-                                <td class="data__table_row">3</td>
-                                <td class="data__table_row">4,5</td>
-                                <td class="data__table_row">6</td>
-                                <td class="data__table_row">12</td>
-                                <td class="data__table_row">15</td>
-                                <td class="data__table_row">18</td>
-                                <td class="data__table_row">20</td>
-                                <td class="data__table_row">6</td>
-                                <td class="data__table_row">7</td>
-                                <td class="data__table_row">14</td>
-                                <td class="data__table_row">15-17</td>
-                            </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                            </tr>
-                    </table>
+                    <li class="data__list_elem-table"><table class="data__table">
+                        <tr>
+                            <td class="data__table_row" colspan="10">Месяцы</td>
+                            <td class="data__table_row" colspan="4">Годы</td>
+                        </tr>
+                        <tr>
+                            <td class="data__table_row">0</td>
+                            <td class="data__table_row">1</td>
+                            <td class="data__table_row">2</td>
+                            <td class="data__table_row">3</td>
+                            <td class="data__table_row">4,5</td>
+                            <td class="data__table_row">6</td>
+                            <td class="data__table_row">12</td>
+                            <td class="data__table_row">15</td>
+                            <td class="data__table_row">18</td>
+                            <td class="data__table_row">20</td>
+                            <td class="data__table_row">6</td>
+                            <td class="data__table_row">7</td>
+                            <td class="data__table_row">14</td>
+                            <td class="data__table_row">15-17</td>
+                        </tr>
+                        <tr>
+                            <td class="data__table_row data__table_row_period">3-7 дн.</td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row data__table_row_red" colspan="2">RV</td>
+                            <td class="data__table_row"></td>
+                            <td class="data__table_row"></td>
+                        </tr>
+                    </table> </li>
 
                     <li class="data__list_elem">Гепатит В
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -471,28 +475,45 @@
                                 <td class="data__table_row">14</td>
                                 <td class="data__table_row">15-17</td>
                             </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
+                            <tr>
+                                <td class="data__table_row data__table_row_period">V1</td>
+                                <td class="data__table_row data__table_row_period">V2</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">V3</td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
                             </tr>
-                    </table>
-
+                            <tr>
+                                <td class="data__table_row data__table_row_red">V1</td>
+                                <td class="data__table_row data__table_row_red">V2</td>
+                                <td class="data__table_row data__table_row_red">V3</td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_red">V4</td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                            </tr>
+                        </table>
+                    </li>
                     <li class="data__list_elem">Пневмококковая инфекция
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -513,28 +534,29 @@
                                 <td class="data__table_row">14</td>
                                 <td class="data__table_row">15-17</td>
                             </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
+                            <tr>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">V1</td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">V2</td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">RV</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                             </tr>
-                    </table>
-
+                        </table>
+                    </li>
                     <li class="data__list_elem">Коклюш
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -555,28 +577,29 @@
                                 <td class="data__table_row">14</td>
                                 <td class="data__table_row">15-17</td>
                             </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
+                            <tr>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">V1</td>
+                                <td class="data__table_row data__table_row_period">V2</td>
+                                <td class="data__table_row data__table_row_period">V3</td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                             </tr>
-                    </table>
-
+                        </table>
+                    </li>
                     <li class="data__list_elem">Дифтерия
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -597,28 +620,28 @@
                                 <td class="data__table_row">14</td>
                                 <td class="data__table_row">15-17</td>
                             </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
+                            <tr>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">V1</td>
+                                <td class="data__table_row data__table_row_period">V2</td>
+                                <td class="data__table_row data__table_row_period">V3</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">RV1</td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
-                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period" colspan="2">АДС-м RV2</td>
+                                <td class="data__table_row data__table_row_period">АДС-м RV3</td>
                                 <td class="data__table_row"></td>
                             </tr>
-                    </table>
-
+                        </table>
+                    </li>
                     <li class="data__list_elem">Столбняк
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -639,28 +662,28 @@
                                 <td class="data__table_row">14</td>
                                 <td class="data__table_row">15-17</td>
                             </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
+                            <tr>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">V1</td>
+                                <td class="data__table_row data__table_row_period">V2</td>
+                                <td class="data__table_row data__table_row_period">V3</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">RV1</td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
-                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period" colspan="2">АДС-м RV2</td>
+                                <td class="data__table_row data__table_row_period">АДС-м RV3</td>
                                 <td class="data__table_row"></td>
                             </tr>
-                    </table>
-
+                        </table>
+                    </li>
                     <li class="data__list_elem">Полиомиелит
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -681,28 +704,43 @@
                                 <td class="data__table_row">14</td>
                                 <td class="data__table_row">15-17</td>
                             </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
+                            <tr>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period" rowspan="2">ИПВ</td>
+                                <td class="data__table_row data__table_row_period" rowspan="2">ИПВ</td>
+                                <td class="data__table_row data__table_row_period">ОПВ</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">ОПВ</td>
+                                <td class="data__table_row data__table_row_period">ОПВ</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
-                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">ОПВ</td>
                                 <td class="data__table_row"></td>
                             </tr>
-                    </table>
-
+                            <tr>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_red">ИПВ</td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_red">ИПВ</td>
+                                <td class="data__table_row data__table_row_red">ИПВ</td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_red">ИПВ</td>
+                                <td class="data__table_row"></td>
+                            </tr>
+                        </table>
+                    </li>
                     <li class="data__list_elem">Гемофильная инфекция
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -724,27 +762,28 @@
                                 <td class="data__table_row">15-17</td>
                             </tr>
                              <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_red">V1</td>
+                                <td class="data__table_row data__table_row_red">V2</td>
+                                <td class="data__table_row data__table_row_red">V3</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
-                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_red">RV</td>
+                                <td class="data__table_row data__table_row"></td>
+                                <td class="data__table_row data__table_row"></td>
+                                <td class="data__table_row data__table_row"></td>
+                                <td class="data__table_row data__table_row"></td>
                                 <td class="data__table_row"></td>
                             </tr>
-                    </table>
-
+                        </table>
+                    </li>
                     <li class="data__list_elem">Корь
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -766,27 +805,28 @@
                                 <td class="data__table_row">15-17</td>
                             </tr>
                              <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">V1</td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_period">RV</td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
                             </tr>
-                    </table>
-
+                        </table>
+                    </li>
                     <li class="data__list_elem">Краснуха
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -807,28 +847,29 @@
                                 <td class="data__table_row">14</td>
                                 <td class="data__table_row">15-17</td>
                             </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
+                            <tr>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">V1</td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_period">RV</td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
+                                <td class="data__table_row data__table_row_grey"></td>
                             </tr>
-                    </table>
-
+                        </table>
+                    </li>
                     <li class="data__list_elem">Эпидемический паротит
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -849,28 +890,29 @@
                                 <td class="data__table_row">14</td>
                                 <td class="data__table_row">15-17</td>
                             </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
+                            <tr>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
+                                <td class="data__table_row data__table_row_period">V1</td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
+                                <td class="data__table_row data__table_row_period">RV</td>
+                                <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                                 <td class="data__table_row"></td>
                             </tr>
-                    </table>
-
+                        </table>
+                    </li>
                     <li class="data__list_elem">Грипп
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
-
-                    <table class="data__table">
+                    <li class="data__list_elem-table">
+                        <table class="data__table">
                             <tr>
                                 <td class="data__table_row" colspan="10">Месяцы</td>
                                 <td class="data__table_row" colspan="4">Годы</td>
@@ -891,25 +933,41 @@
                                 <td class="data__table_row">14</td>
                                 <td class="data__table_row">15-17</td>
                             </tr>
-                             <tr>
-                                <td class="data__table_row data__table_row_period">3-7 дн.</td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row_RV" colspan="2">RV</td>
-                                <td class="data__table_row"></td>
-                                <td class="data__table_row"></td>
+                            <tr>
+                                <td class="data__table-desktop_row"></td>
+                                <td class="data__table-desktop_row"></td>
+                                <td class="data__table-desktop_row"></td>
+                                <td class="data__table-desktop_row"></td>
+                                <td class="data__table-desktop_row"></td>
+                                <td class="data__table-desktop_row data__table-desktop_row_red"  colspan="9">Ежегодно</td>
                             </tr>
-                    </table>
-
-                    <li class="data__list_elem">Условные обозначения
+                        </table>
+                    </li>
+                    <li class="data__list_elem legend">Условные обозначения
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
+                    </li>
+                    <li class="data__list_elem-description">
+                        <div class="data__description-small">
+                            <div class="description__container">
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle73.svg" alt="">
+                                    <p class="container__elem_ph">Все лица данной возрастной &nbsp; группы</p>
+                                </div>
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle74.svg" alt="">
+                                    <p class="container__elem_ph">Ранее не привитые, не болевшие, 
+                                            не имеющие сведений и однократно привитые (для кори и краснухи)</p>
+                                </div>
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle85.svg" alt="">
+                                    <p class="container__elem_ph">Лица из групп риска по показаниям, призывники (грипп)</p>
+                                </div>
+                            </div>
+                            <p class="container__elem_comment">V1,V2,V3 - порядковый номер вакцинации, RV - ревакцинация, 
+                                ИПВ - иннактивированная полиомелитная вакцина, ОПВ - оральная полиомелитная вакцина, 
+                                АДС-м - анатоксин, дифтерийно столбнячный очищенный с уменьшенным содержанием антигенов
+                            </p>
+                        </div>
                     </li>
                 </ul>
 
@@ -924,11 +982,10 @@
                         <td class="data__table1-desktop_row" colspan="6">Месяцы</td>
                         <td class="data__table1-desktop_row" colspan="5">Годы</td>
                         <td class="data__table1-desktop_row" colspan="2" rowspan="2">Взрослые</td>
-
                     </tr>
                     <tr>
                         <td class="data__table1-desktop_row"></td>
-                        <td class="data__table1-desktop_row" width="64px">6-12 нед.</td>
+                        <td class="data__table1-desktop_row">6-12 нед.</td>
                         <td class="data__table1-desktop_row">3</td>
                         <td class="data__table1-desktop_row">4,5</td>
                         <td class="data__table1-desktop_row">6</td>
@@ -937,8 +994,7 @@
                         <td class="data__table1-desktop_row">2</td>
                         <td class="data__table1-desktop_row">3</td>
                         <td class="data__table1-desktop_row">4</td>
-                        <td class="data__table1-desktop_row">5</td>
-                        
+                        <td class="data__table1-desktop_row">5</td>    
                     </tr>
                     <tr>
                         <td class="data__table1-desktop_row-th">Пневмококковая инфекция</td>
@@ -1053,37 +1109,37 @@
                 <div class="data__description">
                     <div class="description__container">
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 73.svg" alt="">
+                            <div class="container__elem_img container__elem_img-grey"></div>
                             <p class="container__elem_ph">Дети в возрасте от 2до 5 лет, взрослые из групп риска, включая лиц, подлежащих призыву на военную службу</p>
                         </div>
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 74.svg" alt="">
+                                <div class="container__elem_img container__elem_img-dark-grey"></div>
                             <p class="container__elem_ph">Лица, проживающие на эндемичных территориях, лица выезжающие на эндемичные территории; лица подверженные профессиональному риску заражения</p>
                         </div>
                     </div>
                     <div class="description__container">
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 85.svg" alt="">
+                            <div class="container__elem_img container__elem_img-red"></div>
                             <p class="container__elem_ph">Лица в очагах инфекции, включая лиц подлежащих призыву на военную службу</p>
                         </div>
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 86.svg" alt="">
+                            <div class="container__elem_img container__elem_img-light-grey"></div>
                             <p class="container__elem_ph">Контактные лица из очагов заболевания, не болевшие, не привитые и не имеющие сведений о профилактических прививках</p>
                         </div>
                     </div>
                     <div class="description__container">
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 75.svg" alt="">
+                            <div class="container__elem_img container__elem_img-darking-grey"></div>
                             <p class="container__elem_ph">Дети и взрослые из групп риска, включая лиц подлежащих призыву на военную службу, ранее не привитые</p>
                         </div>
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 87.svg" alt="">
+                            <div class="container__elem_img container__elem_img-black"></div>
                             <p class="container__elem_ph">Дети для активной вакцинации с целью профилактики заболеваний, вызываемых ротавирусами</p>
                         </div>
                     </div>
                     <div class="description__container">
                         <div class="container__elem">
-                            <img class="container__elem_img" src="images/svg/Rectangle 88.svg" alt="">
+                            <div class="container__elem_img container__elem_img-pink"></div>
                             <p class="container__elem_ph">Дети и взрослые из групп риска, включая лиц подлежащих призыву на военную службу, ранее не привитые</p>
                         </div>
                         <div class="container__elem">
@@ -1099,6 +1155,7 @@
                         </div>
                     </div>
                 </div>
+
                 <ul class="data__list">
                     <li class="data__list_elem">Пневмококковая инфекция
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
@@ -1135,12 +1192,57 @@
                     </li>
 
 
-                    <li class="data__list_elem">Условные обозначения
+                    <li class="data__list_elem legend">Условные обозначения
                         <img src="images/svg/arrow_s.svg" alt="" class="arrow_ico">
                     </li>
+                    <li class="data__list_elem-description">
+                        <div class="data__description-small">
+                            <div class="description__container">
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle73.svg" alt="">
+                                    <p class="container__elem_ph">Дети в возрасте от 2до 5 лет, взрослые из групп риска, включая лиц, подлежащих призыву на военную службу</p>
+                                </div>
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle74.svg" alt="">
+                                    <p class="container__elem_ph">Лица, проживающие на эндемичных территориях, лица выезжающие на эндемичные территории; лица подверженные профессиональному риску заражения</p>
+                                </div>
+                            </div>
+                            <div class="description__container">
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle85.svg" alt="">
+                                    <p class="container__elem_ph">Лица в очагах инфекции, включая лиц подлежащих призыву на военную службу</p>
+                                </div>
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle86.svg" alt="">
+                                    <p class="container__elem_ph">Контактные лица из очагов заболевания, не болевшие, не привитые и не имеющие сведений о профилактических прививках</p>
+                                </div>
+                            </div>
+                            <div class="description__container">
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle75.svg" alt="">
+                                    <p class="container__elem_ph">Дети и взрослые из групп риска, включая лиц подлежащих призыву на военную службу, ранее не привитые</p>
+                                </div>
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle87.svg" alt="">
+                                    <p class="container__elem_ph">Дети для активной вакцинации с целью профилактики заболеваний, вызываемых ротавирусами</p>
+                                </div>
+                            </div>
+                            <div class="description__container">
+                                <div class="container__elem">
+                                    <img class="container__elem_img" src="images/svg/Rectangle88.svg" alt="">
+                                    <p class="container__elem_ph">Дети и взрослые из групп риска, включая лиц подлежащих призыву на военную службу, ранее не привитые</p>
+                                </div>
+                                <div class="container__elem">
+                                    <p class="container__elem_ph">V1,V2,V3 - порядковый номер вакцинации</p>
+                                </div>
+                            </div>
+                            <div class="description__container">
+                                    <p class="container__elem_ph">* - схема согласно действующим инструкциям по медецинскому применению препаратов</p>
+                                    <p class="container__elem_ph">** - возраст начала вакцинации и схема введения в зависимости от выбранного препарата</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-
-
             </div>    
         </div>
     </section>
@@ -1148,55 +1250,61 @@
     <footer class="footer">
         <h2 class="footer__logo">Хвойнинская больница</h2>
         <div class="footer__container">
-            <div class="container__nav">
-                <h2 class="container__nav_title">Контакты</h2>
-                <img src="images/svg/Polygon 1.svg" alt="" class="triangle">
-            </div>
-            <div class="container__nav">
-                <h2 class="container__nav_title">Пациентам</h2>
-                <img src="images/svg/Polygon 1.svg" alt="" class="triangle">
-                <ul class="container__nav_list">
-                    <li class="nav__list_elem">
-                        <a href="" class="nav__list_elem-link">Расписание</a>
-                    </li>
-                    <li class="nav__list_elem">
-                        <a href="" class="nav__list_elem-link">Основные виды деятельности</a>
-                    </li>
-                    <li class="nav__list_elem">
-                        <a href="" class="nav__list_elem-link">Профилактика</a>
-                    </li>
-                    <li class="nav__list_elem">
-                        <a href="" class="nav__list_elem-link">Запись на приём</a>
-                    </li>
-                    <li class="nav__list_elem">
-                        <a href="" class="nav__list_elem-link">ГОСУСЛУГИ запись на приём</a>
-                    </li>
-                    <li class="nav__list_elem">
-                        <a href="" class="nav__list_elem-link">Написать нам</a>
-                    </li>
-                    <li class="nav__list_elem">
-                        <a href="" class="nav__list_elem-link">Прочая информация</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="container__nav">
-                <h2 class="container__nav_title">Профилактика</h2>
-                <img src="images/svg/Polygon 1.svg" alt="" class="triangle">
-            </div>
-            <div class="container__nav">
-                <h2 class="container__nav_title">О нас</h2>
-                <img src="images/svg/Polygon 1.svg" alt="" class="triangle">  
-            </div>
-            <div class="container__nav">
-                <h2 class="container__nav_title">Противодействие коррупции</h2> 
-                <img src="images/svg/Polygon 1.svg" alt="" class="triangle">
-                <ul class="container__nav_list">
-                    <li class="nav__list_elem">
-                        <a href="" class="nav__list_elem-link">Комиссия по противодействию коррупции</a>
-                    </li>
-                </ul>
-            </div>    
+            <ul class="container__nav">
+                <li class="container__nav_title">Контакты
+                    <img src="images/svg/Polygon1.svg" alt="" class="triangle">
+                </li>
+            </ul>
+            <ul class="container__nav">
+                <li class="container__nav_title">Пациентам
+                    <img src="images/svg/Polygon1.svg" alt="" class="triangle">
+                    <ul class="container__nav_list">
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">Расписание</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">Основные виды деятельности</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="prophylaxy.html" class="nav__list_elem-link">Профилактика</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="index.html" class="nav__list_elem-link">Запись на приём</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">ГОСУСЛУГИ запись на приём</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="write-to-us.html" class="nav__list_elem-link">Написать нам</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">Прочая информация</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="container__nav">
+                <li class="container__nav_title">Профилактика
+                    <img src="images/svg/Polygon1.svg" alt="" class="triangle">
+                </li>
+            </ul>
+            <ul class="container__nav">
+                <li class="container__nav_title">О нас
+                    <img src="images/svg/Polygon1.svg" alt="" class="triangle"> 
+                </li> 
+            </ul>
+            <ul class="container__nav">
+                <li class="container__nav_title">Противодействие коррупции 
+                    <img src="images/svg/Polygon1.svg" alt="" class="triangle">
+                    <ul class="container__nav_list">
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">Комиссия по противодействию коррупции</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>    
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

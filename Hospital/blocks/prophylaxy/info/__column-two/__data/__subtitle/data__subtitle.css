@@ -6,5 +6,5 @@
     font-size: 20px;
     line-height: 22px;
     font-style: normal;
-    color: #F36956;
+    color: var(--color-bg);
 }

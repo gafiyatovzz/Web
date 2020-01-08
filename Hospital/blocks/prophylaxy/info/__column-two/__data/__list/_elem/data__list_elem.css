@@ -1,16 +1,28 @@
 .data__list_elem {
-    border-bottom: 1px solid #F36956;
+    border-bottom: 1px solid var(--color-bg);
     margin: 5px 0 3px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.data__list_elem:last-child {
-    border-top: 1px solid #F36956;
+.legend {
+    border-top: 1px solid var(--color-bg);
     margin-top: 61px;
 }
 
-.data__list_elem:hover + .data__table {
+.data__list_elem-table {
+    display: none;
+}
+
+.data__list_elem-description {
+    display: none;
+}
+
+.data__list_elem:hover + .data__list_elem-table {
+    display: block;
+}
+
+.legend:hover + .data__list_elem-description {
     display: block;
 }

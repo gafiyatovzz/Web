@@ -2,7 +2,7 @@
 @import url(../column-two/__contrast/column-two__contrast.css);
 
 .header__column-two {
-    background-color: #F36956;
+    background-color: var(--color-bg);
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -12,6 +12,6 @@
 
 @media (max-width: 1340px) {
     .header__column-two {
-        background-color: #535353;
+        background-color: var(--color-bg-grey);
     }
 }

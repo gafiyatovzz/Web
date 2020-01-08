@@ -1,0 +1,11 @@
+.sidebar__return_btn {
+    width: 332px;
+    height: 100%;
+    border: 1px solid #333333;
+    background: #f2f2f2;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    text-align: center;
+}

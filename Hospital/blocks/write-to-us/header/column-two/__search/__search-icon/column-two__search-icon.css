@@ -1,0 +1,13 @@
+.column-two__search-icon {
+    position: relative;
+    left: 53px;
+    top: 53px;
+}
+
+@media (max-width: 1023px) {
+    .column-two__search-icon {
+        top: 29px;
+        left: 27px;
+        width: 13px;
+    }
+}

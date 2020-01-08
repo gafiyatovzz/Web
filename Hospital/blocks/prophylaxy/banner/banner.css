@@ -12,7 +12,7 @@
 
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
     .banner {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;

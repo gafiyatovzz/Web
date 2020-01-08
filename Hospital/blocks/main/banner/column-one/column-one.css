@@ -22,3 +22,10 @@
         width: 517px;
     }
 }
+
+@media (max-width: 1024px) {
+ .banner__photo-1 {
+        min-height: 100%;
+        width: 400px;
+    }
+}

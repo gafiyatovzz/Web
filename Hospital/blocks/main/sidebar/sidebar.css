@@ -1,0 +1,19 @@
+@import url(../sidebar/__font/sidebar__font.css);
+@import url(../sidebar/__color/sidebar__color.css);
+@import url(../sidebar/__images/sidebar__images.css);
+@import url(../sidebar/__return/sidebar__return.css);
+
+.sidebar {
+    background-color: #f2f2f2;
+    height: 132px;
+    padding: 0 212px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+@media (max-width: 1500px) {
+    .sidebar {
+        padding: 0 50px;
+    }
+}

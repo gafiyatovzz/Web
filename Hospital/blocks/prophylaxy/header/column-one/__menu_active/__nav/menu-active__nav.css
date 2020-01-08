@@ -1,27 +1,19 @@
-@import url(./__list/pacients__list.css);
+@import url(../__nav/__title/nav__title.css);
+@import url(../__nav/__list_elem/nav__list_elem.css);
+@import url(../__nav/__list/container__nav_list.css);
 
 .menu-active__nav {
-    position: relative;
-    top: 199px;
-    left: 190px;
     width: 300px;
-}
-
-.menu-active__nav h2{
+    display: flex;
+    flex-direction: column;
     color: #f2f2f2;
-    text-transform: uppercase;
-    font-size: 1.3em;
-    line-height: 1.1;
-    font-weight: 600;
-    letter-spacing: 0.015;
-    opacity: .5;
+    position: relative;
+    top: 200px;
+    left: 15%;
+    margin: 0;
+    padding: 0;
 }
 
-.menu-active__nav h2:hover {
-    opacity: 1;
-    text-decoration: underline;
-}
-
-.menu-active__nav-corruptions {
-    white-space: pre;
+.menu-active__nav .nav__title:hover .nav__list {
+    display: block;
 }

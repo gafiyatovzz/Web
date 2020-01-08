@@ -1,0 +1,12 @@
+.nav__list_elem {
+    color: #f2f2f2;
+    text-decoration: none;
+    margin: 0 0 30px;
+    width: 190px
+}
+
+.nav__list_elem-link {
+    color: #f2f2f2;
+    text-decoration: none;
+    width: 100%;
+}

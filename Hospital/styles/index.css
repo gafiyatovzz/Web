@@ -1,8 +1,61 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/main/main.css);
+@import url(../blocks/prophylaxy/prophylaxy.css);
+@import url(../blocks/write-to-us/write-to-us.css);
 @import url(../vendor/font.css);
 
+:root {
+    --color-normal-text: #F36956;
+    --color-normal-grey: #535353;
+    --color-normal-bg: #F36956;
+    --color--pink-bg: #F27E77;
+    --color-contrast-text: #333;
+    --color-contrast-bg: #333;
+    --color-menu-group: #474849;
+    
+    --color-normal-menu-bg: ##474849;
+
+    --color-menu-bg: var(--color-normal-menu-bg);
+    --color-text: var(--color-normal-text);
+    --color-bg-grey: var(--color-normal-grey);
+    --color-bg: var(--color-normal-bg);
+  }
+  
+  :root.contrast {
+    --color-text: var(--color-contrast-text);
+    --color-bg: var(--color-contrast-bg);
+    --color-bg-grey: var(--color-contrast-bg);
+    font-family: 'Noto Sans', Arial, sans-serif;
+    width: 100vw;
+  }
+
+  .contrast {
+    --color-text: var(--color-contrast-text);
+    --color-bg: var(--color-contrast-bg);
+    --color-menu-group-contrast: var(--color-contrast-bg);
+    --color-bg-grey: var(--color-contrast-bg);
+    --color-pink-bg: var(--color-contrast-bg);
+    font-family: 'Noto Sans', Arial, sans-serif;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Noto Sans', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  
 .page {
     font-family: 'Noto Sans', Arial, sans-serif;
-    width: 100%;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Noto Sans', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }

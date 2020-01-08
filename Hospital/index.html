@@ -15,64 +15,93 @@
             <div class="header__menu">
                 <img src="images/svg/menu-group.svg" alt="Ярлык меню" class="header__menu-group">
                 <div class="header__menu_active">
-                        <img src="images/svg/menu-group_white.svg" alt="Ярлык меню" class="header__menu-group">
-                        <!-- <h2 class="header__logo_active">Хвойнинская больница</h2> -->
-                        <img src="images/svg/logo.svg" alt="Хвойнинская больница" class="header__logo_active">
-                        
-                        <div class="menu-active__nav">
-                            <div class="nav__pacients">
-                                <h2 class="pacient__title">Пациентам</h2>
-                                <ul class="pacient__list">
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Расписание</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Основные виды
-деятельности</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Профилактика</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Запись на приём</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">ГОСУСЛУГИ запись 
-на приём</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Написать нам</a>
-                                    </li>
-                                    <li class="pacients__list-elem">
-                                        <a href="" class="pacients__list-elem_link">Прочая информация</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h2 class="menu-active__nav-services">Платные услуги</h2>
-                            <h2 class="menu-active__nav-about">О нас</h2>
-                            <h2 class="menu-active__nav-corruptions">Противодействие
-коррупции</h2>
-                        </div>
+                    <img src="images/svg/menu-group_white.svg" alt="Ярлык меню" class="header__menu-group">
+                    <h2 class="header__logo">Хвойнинская больница</h2>
+                    <!-- <img src="images/svg/logo.svg" alt="Хвойнинская больница" class="header__logo_active"> -->
+                    
+                    <ul class="menu-active__nav">
+                        <li class="nav__title">Пациентам
+                            <ul class="nav__list">
+                                <li class="nav__list_elem">
+                                    <a href="" class="nav__list_elem-link">Расписание</a>
+                                </li>
+                                <li class="nav__list_elem">
+                                    <a href="" class="nav__list_elem-link">Основные виды деятельности</a>
+                                </li>
+                                <li class="nav__list_elem">
+                                    <a href="" class="nav__list_elem-link">Профилактика</a>
+                                </li>
+                                <li class="nav__list_elem">
+                                    <a href="index.html" class="nav__list_elem-link">Запись на приём</a>
+                                </li>
+                                <li class="nav__list_elem">
+                                    <a href="" class="nav__list_elem-link">ГОСУСЛУГИ запись на приём</a>
+                                </li>
+                                <li class="nav__list_elem">
+                                    <a href="" class="nav__list_elem-link">Написать нам</a>
+                                </li>
+                                <li class="nav__list_elem">
+                                    <a href="" class="nav__list_elem-link">Прочая информация</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__title">Платные услуги</li>
+                        <li class="nav__title">О нас</li>
+                        <li class="nav__title">Противодействие коррупции
+                            <ul class="nav__list">
+                                <li class="nav__list_elem">
+                                    <a href="" class="nav__list_elem-link">Комиссия по противодействию коррупции</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <h2 class="header__logo">Хвойнинская больница</h2>
             <!-- <img src="images/svg/logo.svg" alt="Хвойнинская больница" class="header__logo"> -->
         </div>
         <div class="header__column-two"> 
-            <div class="column-two__contrast">
+            <button class="column-two__contrast">
                 <img src="images/svg/glasses.svg" alt="Иконка очков" class="column-two__contrast-icon">
-                <div class="column-two__contrast-text">
-                    <p class="column-two__contrast-text_ph">Версия</p> 
-                    <p class="column-two__contrast-text_ph">для</p>
-                    <p class="column-two__contrast-text_ph">слабовидящих</p>
-                </div>
-            </div>
+                <span class="column-two__contrast-text">
+                    Версия 
+                    для
+                    слабовидящих
+                </span>
+            </button>
             <div class="header__search">
                 <img src="images/svg/search.svg" alt="Иконка лупы"  class="column-two__search-icon">
-                <div class="header__search-line"></div>
+                <div class="header__search-line">
+                    <input type="text" class="header__search-line_text">
+                </div>
             </div>
         </div>
     </header>
+
+    <section class="sidebar">
+        <div class="sidebar__font">
+            <h2 class="sidebar__font_title">Размер шрифта</h2>
+            <div class="sidebar__font-size">
+                <div class="sidebar__font-size_s">A</div>
+                <div class="sidebar__font-size_m">A</div>
+                <div class="sidebar__font-size_l">A</div>
+            </div>
+        </div>
+        <div class="sidebar__color">
+            <h2 class="sidebar__color_title">Цвет сайта</h2>
+            <button class="sidebar__color_white"></button>
+            <button class="sidebar__color_black"></button>
+        </div>
+        <div class="sidebar__images">
+            <h2 class="sidebar__title">Изображения</h2>
+            <div class="sidebar__selector">
+                <button class="sidebar__selector_position"></button>
+            </div>
+        </div>
+        <div class="sidebar__return">
+            <button class="sidebar__return_btn">Обычная версия сайта</button>
+        </div>
+    </section>
 
     <section class="banner">
         <div class="banner__column-one">
@@ -95,7 +124,7 @@
                     <button class="column-two__button">Узнать больше</button>
                 </div>
             </div>
-            <img src="images/matheus-ferrero-yfmjALh1S6s-unsplash 1.jpg" alt="" class="banner__photo-2">
+            <img src="images/matheus-ferrero-yfmjALh1S6s-unsplash1.jpg" alt="" class="banner__photo-2">
         </div>
     </section>
 
@@ -121,12 +150,12 @@
                         <h4 class="link__elem">Новгородской области</h4>
                     </a>
                     <a class="link__elem-li" href="#">
-                        <h4 class="link__elem">Администрация Хвойнинского 
+                        <h4 class="link__elem">Администрация Хвойнинского</h4> 
                         <h4 class="link__elem">муниципального района</h4> 
                     </a>
                     <a class="link__elem-li" href="#">
-                        <h4 class="link__elem">Федеральная служба по надзору в сфере
-                        <h4 class="link__elem">защиты прав потребителей и благополучия
+                        <h4 class="link__elem">Федеральная служба по надзору в сфере</h4>
+                        <h4 class="link__elem">защиты прав потребителей и благополучия</h4>
                         <h4 class="link__elem">человека</h4>
                     </a>
                     <a class="link__elem-li" href="#">
@@ -140,72 +169,63 @@
     </section>
 
     <footer class="footer">
+        <h2 class="footer__logo">Хвойнинская больница</h2>
         <div class="footer__container">
-            <h2 class="footer__logo">Хвойнинская больница</h2>
-        <!-- <img src="images/svg/logo.svg" alt="Логотип" class="footer__logo"> -->
-        <!-- <div class="footer__line"></div> -->
-        <div class="footer__nav">
-
-            <div class="footer__contacts nav__title">
-                <h2 class="contacts__title">Контакты</h2>
-                <!-- <div class="footer__line-nav"></div> -->
-            </div>
-
-            <div class="footer__pacients">
-                <h2 class="pacients__title nav__title">Пациентам</h2>
-                <img src="images/svg/Polygon 1.svg" alt="" class="triangle">
-                <!-- <div class="footer__line-nav"></div> -->
-                <ul class="pacients__list">
-                    <li class="pacient__list-elem">
-                        <a href="" class="pacient__list-elem_link">Расписание</a>
-                    </li>
-                    <li class="pacient__list-elem">
-                        <a href="" class="pacient__list-elem_link">Основные виды
-деятельности</a>
-                    </li>
-                    <li class="pacient__list-elem">
-                        <a href="" class="pacient__list-elem_link">Профилактика</a>
-                    </li>
-                    <li class="pacient__list-elem">
-                        <a href="" class="pacient__list-elem_link">Запись на приём</a>
-                    </li>
-                    <li class="pacient__list-elem">
-                        <a href="" class="pacient__list-elem_link">ГОСУСЛУГИ запись 
-на приём</a>
-                    </li>
-                    <li class="pacient__list-elem">
-                        <a href="" class="pacient__list-elem_link">Написать нам</a>
-                    </li>
-                    <li class="pacient__list-elem">
-                        <a href="" class="pacient__list-elem_link">Прочая информация</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer__pay-services">
-                <h2 class="pay-services__title nav__title">Платные услуги</h2>
-                <img src="images/svg/Polygon 1.svg" alt="" class="triangle">
-                <!-- <div class="footer__line-nav"></div> -->
-            </div>
-            <div class="footer__about">
-                <h2 class="about__title nav__title">О нас</h2>
-                <img src="images/svg/Polygon 1.svg" alt="" class="triangle">
-                <!-- <div class="footer__line-nav"></div> -->
-            </div>
-            <div class="footer__corruptions">
-                <h2 class="corruptions__title nav__title">Противодействие
-коррупции</h2>
-                <img src="images/svg/Polygon 1.svg" alt="" class="triangle">
-                <!-- <div class="footer__line-nav"></div> -->
-                <ul class="corruptions__list">
-                    <li class="corruptions__list-elem">
-                        <a href="" class="corruptions__list-elem_link">Комиссия по
-противодействию
-коррупции</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+            <ul class="container__nav">
+                <li class="container__nav_title">Контакты
+                    <img src="images/svg/Polygon1.svg" alt="" class="triangle">
+                </li>
+            </ul>
+            <ul class="container__nav">
+                <li class="container__nav_title">Пациентам
+                    <img src="images/svg/Polygon1.svg" alt="" class="triangle">
+                    <ul class="container__nav_list">
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">Расписание</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">Основные виды деятельности</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="prophylaxy.html" class="nav__list_elem-link">Профилактика</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">Запись на приём</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">ГОСУСЛУГИ запись на приём</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="write-to-us.html" class="nav__list_elem-link">Написать нам</a>
+                        </li>
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">Прочая информация</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="container__nav">
+                <li class="container__nav_title">Профилактика
+                <img src="images/svg/Polygon1.svg" alt="" class="triangle">
+            </li>
+            </ul>
+            <ul class="container__nav">
+            <li class="container__nav_title">О нас
+                <img src="images/svg/Polygon1.svg" alt="" class="triangle">
+            </li>
+            </ul>
+            <ul class="container__nav">
+                <li class="container__nav_title">Противодействие коррупции 
+                    <img src="images/svg/Polygon1.svg" alt="" class="triangle">
+                    <ul class="container__nav_list">
+                        <li class="nav__list_elem">
+                            <a href="" class="nav__list_elem-link">Комиссия по противодействию коррупции</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>    
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

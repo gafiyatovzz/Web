@@ -1,9 +1,9 @@
 
 .column-two__links {
-    margin: 12% auto 0;
+    margin: 12% auto 0 90px;
     width: 580px;
     position: relative;
-    color: #F36956;
+    color: var(--color-bg);
 }
 
 @media (max-width: 1340px) {

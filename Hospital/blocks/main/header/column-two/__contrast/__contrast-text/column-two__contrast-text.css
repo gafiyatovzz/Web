@@ -10,10 +10,9 @@
     letter-spacing: 0.015em;
     color: #f2f2f2;
     display: none;
+    text-align: left;
+    width: 150px;
 }
 
-.column-two__contrast-text .column-two__contrast-text_ph {
-    margin: 0;
-}
 
-.column-two__contrast:hover>.column-two__contrast-text{display: inline;}
+.column-two__contrast:hover .column-two__contrast-text{display: inline;}

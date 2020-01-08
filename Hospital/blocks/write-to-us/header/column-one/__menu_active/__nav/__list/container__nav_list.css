@@ -1,0 +1,12 @@
+.nav__list {
+    list-style: none;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0;
+    color: #f2f2f2;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 300px;
+}

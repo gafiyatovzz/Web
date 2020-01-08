@@ -1,7 +1,7 @@
 @import url(../../banner/column-two/__news/column-two__news.css);
 
 .banner__column-two {
-    background-color: #F36956;
+    background-color: var(--color-bg);
     display: grid;
     width: 100%;
     position: relative;
@@ -10,13 +10,6 @@
 
 .banner__photo-2 {
     width: 100%;
-}
-
-@media (max-width: 1340px) {
-    .banner__column-two {
-        background-color: #F36956;
-    }
-   
 }
 
 @media (max-width: 1023px) {

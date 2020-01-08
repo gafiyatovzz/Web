@@ -1,0 +1,22 @@
+.form__label {
+    font-size: 34px;
+    line-height: 64px;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+    color: var(--color-text);
+}
+
+@media (max-width: 1023px) {
+    .form__label {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 64px;
+    }
+}
+
+@media (max-width: 768px) {
+   .form__label {
+       font-size: 20px;
+       line-height: 36px;
+   } 
+}

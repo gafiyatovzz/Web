@@ -1,0 +1,15 @@
+@import url(../__content/__text/form__text.css);
+@import url(../__content/__label/form__label.css);
+@import url(../__content/__button/feedback__button.css);
+
+.feedback__content {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .feedback__content {
+        flex-direction: column;
+    }
+}

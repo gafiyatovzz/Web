@@ -2,7 +2,7 @@
 
 .data__table-desktop {
     border-collapse: collapse;
-    border: 1px solid #F36956;
+    border: 1px solid var(--color-bg);
     width: 734px;
     margin: 51px auto 0;
     font-weight: 500;
@@ -12,11 +12,11 @@
 }
 
 .data__table-desktop_row, .data__table-desktop_row-th {
-    color: #F36956;
+    color: var(--color-bg);
     height: 32px;
     width: 32px;
-    border-left: 1px solid #F36956;
-    border-top: 1px solid #F36956;
+    border-left: 1px solid var(--color-bg);
+    border-top: 1px solid var(--color-bg);
     text-align: center;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .data__table-desktop_row_grey { 
-    color: #F36956;
+    color: var(--color-bg);
     background-color: #BDBDBD;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .data__table-desktop_row_red {
-    background-color: #F36956;
+    background-color: var(--color-bg);
     color: #f2f2f2;
 }
 

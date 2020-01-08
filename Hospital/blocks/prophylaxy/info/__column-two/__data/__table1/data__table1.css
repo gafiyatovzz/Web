@@ -2,7 +2,7 @@
 
 .data__table1 {
     border-collapse: collapse;
-    border: 1px solid #F36956;
+    border: 1px solid var(--color-bg);
     width: 100%;
     margin: 51px 0 80px;
     display: none;
@@ -13,16 +13,16 @@
 }
 
 .data__table1_row {
-    color: #F36956;
+    color: var(--color-bg);
     height: 65px;
     width: 63px;
-    border-left: 1px solid #F36956;
-    border-top: 1px solid #F36956;
+    border-left: 1px solid var(--color-bg);
+    border-top: 1px solid var(--color-bg);
     text-align: center;
 }
 
 .data__table1_row_grey { 
-    color: #F36956;
+    color: var(--color-bg);
     background-color: #BDBDBD;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .data__table1_row_red {
-    background-color: #F36956;
+    background-color: var(--color-bg);
     color: #f2f2f2;
     font-weight: 500;
     font-size: 12px;
@@ -40,7 +40,4 @@
 
 .data__table1_row2:first-child {
     border-left: 0;
-}
-
-@media (max-width: 1340px) {
 }

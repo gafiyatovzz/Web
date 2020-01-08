@@ -1,0 +1,21 @@
+@import url(../feedback/__title/feedback__title.css);
+@import url(../feedback/__content/feedback__content.css);
+@import url(../feedback/__form/feedback__form.css);
+
+.feedback {
+    padding: 89px 212px 265px;
+    color: var(--color-text);
+    background: #f2f2f2;
+}
+
+@media (max-width: 1024px) {
+    .feedback {
+        padding: 68px 60px 127px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feedback {
+        padding: 39px 20px 90px;
+    }
+}

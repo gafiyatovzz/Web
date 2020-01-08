@@ -5,7 +5,7 @@
 }
 
 .header__menu:hover + .header__menu_active {
-    background: #F36956;
+    background: var(--color-bg-grey);
     display: none;
 }
 

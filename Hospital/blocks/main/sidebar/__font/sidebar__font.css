@@ -1,0 +1,7 @@
+@import url(./_title/sidebar__title.css);
+@import url(./_size/sidebar__font-size.css);
+
+.sidebar__font {
+    display: flex;
+    align-self: center;
+}

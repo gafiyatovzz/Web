@@ -1,8 +1,0 @@
-@import url(../vendor/normalize.css);
-@import url(../blocks/prophylaxy/prophylaxy.css);
-@import url(../vendor/font.css);
-
-.page {
-    font-family: 'Noto Sans', Arial, sans-serif;
-    width: 100%;
-}

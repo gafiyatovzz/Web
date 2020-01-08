@@ -1,8 +1,8 @@
 @import url(../../../prophylaxy/banner/column-two/__news/column-two__news.css);
 
 .banner__column-two {
-    background-color: #F36956;
+    background-color: var(--color-bg);
     display: grid;
     width: 100%;
-    position: relative;  
+    position: relative;
 }

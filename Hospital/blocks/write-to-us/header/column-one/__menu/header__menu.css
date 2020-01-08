@@ -1,0 +1,21 @@
+@import url(../__menu/__menu-group/header__menu-group.css);
+
+.header__menu {
+    position: absolute;
+    width: 132px;
+    min-height: 100%;
+    background-color: var(--color-menu-group-contrast);
+}
+
+.header__menu:hover .header__menu_active {
+    display: block;
+    transition: .7s linear;
+
+
+}
+
+@media (max-width: 1023px) {
+    .header__menu {
+        width: 67px;
+    }
+}

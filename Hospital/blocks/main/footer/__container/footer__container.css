@@ -1,0 +1,17 @@
+@import url(../__container/__nav/container__nav.css);
+
+.footer__container {
+    margin: 39px auto 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1340px) {
+    .footer__container {
+        margin: 322px auto 70px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

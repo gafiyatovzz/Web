@@ -1,0 +1,9 @@
+@import url(../__color/_title/sidebar__title.css);
+@import url(../__color/_black/sidebar__color_black.css);
+@import url(../__color/_white/sidebar__color_white.css);
+
+.sidebar__color {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}

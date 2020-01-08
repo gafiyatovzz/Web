@@ -1,0 +1,21 @@
+
+.container__nav_title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: none;
+}
+
+@media (max-width: 1340px) {
+    .container__nav_title {
+        margin: 28px 0;
+        justify-self: center;
+    }
+}
