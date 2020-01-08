@@ -2,7 +2,9 @@
     position: absolute;
     right: 0;
     display: none;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 @media (max-width: 1340px) {

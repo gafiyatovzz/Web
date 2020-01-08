@@ -3,9 +3,14 @@
 
 .footer {
     background-color: var(--color-bg-grey);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0 40px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     position: relative;
 }
 
