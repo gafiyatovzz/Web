@@ -15,4 +15,6 @@
 }
 
 
-.column-two__contrast:hover .column-two__contrast-text{display: inline;}
+.column-two__contrast:hover .column-two__contrast-text {
+    display: inline;
+}

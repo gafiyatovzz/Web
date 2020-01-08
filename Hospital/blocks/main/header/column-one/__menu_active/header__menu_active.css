@@ -9,8 +9,9 @@
     position: absolute;
     z-index: 213;
     display: none;
+    -webkit-transition: .7s linear;
+    -o-transition: .7s linear;
     transition: .7s linear;
-
 }
 
 .header__logo_active {

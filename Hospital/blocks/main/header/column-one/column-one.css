@@ -4,7 +4,8 @@
 
 .header__column-one {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     z-index: 20;
 }
-

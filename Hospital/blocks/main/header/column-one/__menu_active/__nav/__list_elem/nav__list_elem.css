@@ -3,8 +3,9 @@
     margin: 0 0 30px;
     width: 19px;
     opacity: .5;
+    -webkit-transition: .1s linear;
+    -o-transition: .1s linear;
     transition: .1s linear;
-
 }
 
 .nav__list_elem-link {
