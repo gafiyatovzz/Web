@@ -8,6 +8,14 @@
   padding: 34px 36px;
 }
 
+.popup-pic__img {
+  width: 80vw;
+  height: 80vh;
+  background-size: cover;
+  background-color: transparent;
+  position: relative;
+}
+
 @media screen and (max-width: 540px) {
   .popup__content {
     width: calc(100% - 60px);

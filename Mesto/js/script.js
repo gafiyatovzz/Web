@@ -1,4 +1,5 @@
-const initialCards = [
+(function(){
+  const initialCards = [
     {
       name: 'Архыз',
       link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/arkhyz.jpg'
@@ -40,77 +41,69 @@ const initialCards = [
       link: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/vladivostok.jpg'
      }
   ];
-
-const placesList = document.querySelector('.places-list'); //обратился к контейнеру карточек
-const placeCard = document.querySelector('.place-card'); // сама карточка
-const openPopupButton = document.querySelector('.button'); //кнопка открытия формы 
-const closePopupButton = document.querySelector('.popup__close'); // кнопка закрытия формы
-const addCardButton = document.querySelector('.popup__button'); //кнопка добавления карточки
-const likeButton = document.querySelector('.place-card__like-icon'); // кнопка лайка
-const deleteButton = document.querySelector('.place-card__delete-icon'); // кнопка удаления карточки
-
-function createCard({name, link}) { //функция добавления карточки
-    const placeCard = document.createElement('div');
-    const imageEl = document.createElement('div');
-    const deleteBtnEl = document.createElement('button');
-    const descriptionEl = document.createElement('div');
-    const nameEl = document.createElement('h3');
-    const likeBtnEl = document.createElement('button');
-
-    placeCard.classList.add('place-card');
-    imageEl.classList.add('place-card__image');
-    deleteBtnEl.classList.add('place-card__delete-icon');
-    descriptionEl.classList.add('place-card__description');
-    nameEl.classList.add('place-card__name');
-    likeBtnEl.classList.add('place-card__like-icon');
-
-    imageEl.style.backgroundImage = 'url(' + link + ')';
-    nameEl.textContent = name;
-    
-    placeCard.appendChild(imageEl);
-    placeCard.appendChild(descriptionEl);
-    imageEl.appendChild(deleteBtnEl);
-    descriptionEl.appendChild(nameEl);
-    descriptionEl.appendChild(likeBtnEl);
-    placesList.appendChild(placeCard);
-}
-
-initialCards.forEach(createCard);
-
-function addCard() { //реализована функция добавления карточки через форму отправки.
-    event.preventDefault();  
-  
-    const form = document.forms.new;
-    const name = form.elements.name.value;
-    const link = form.elements.link.value;
-
-    createCard({name, link});
-    form.reset();
-}
-
-openPopupButton.addEventListener('click', function () { //кнопка открытия формы
+  const placesList = document.querySelector('.places-list'); //обратился к контейнеру карточек
   const popup = document.querySelector('.popup');
-  popup.classList.add('popup_is-opened');   
-});
+  const popupEdit = document.querySelector('.popup-edit');
+  const popupAdd = document.querySelector('.popup-add');
+  const popupPic = document.querySelector('.popup-pic');
+  const popupContent = document.querySelector('.popup-pic__content');const buttonEdit  = document.querySelector('.user-info__button-small');
+  const popupButtonAdd  = document.querySelector('.user-info__button');
+  const formAdd = document.querySelector('form[name = "addCard"]')
+  const formEdit = document.querySelector('form[name = "edit"]')
+  const formEditButton = document.querySelector('form[name = "edit"] > button');
+  const formAddButton = document.querySelector('form[name = "addCard"] > button')
+  const inputName = document.querySelector('.popup__input_name');
+  const inputJob = document.querySelector('.popup__input_job');
+  const errorName = document.querySelector('.popup__input_name ~ span');
+  const errorJob = document.querySelector('.popup__input_job ~ span');
 
-closePopupButton.addEventListener('click', function () { //кнопка закрытия формы
-  const close = document.querySelector('.popup');
-  close.classList.remove('popup_is-opened');
-});
-
-addCardButton.addEventListener('click', function () { //кнопка добавления карточки, которая находится в форме.
-  addCard();
-  const close = document.querySelector('.popup');
-  close.classList.remove('popup_is-opened');
-
-});
-
-placesList.addEventListener('click', function (event) {
-  if (event.target.classList.contains('place-card__like-icon')) {
-      event.target.classList.toggle('place-card__like-icon_liked');
+  const ERROR_MESSAGES = {
+    valueMissing: 'Это обязательное поле',
+    tooShort: 'Должно быть от 2 до 30 символов',
+    typeMismatch: 'Здесь должная быть ссылка'
   }
-  if (event.target.classList.contains('place-card__delete-icon')) {
-    const delt = event.target.closest('.place-card');
-    delt.remove();
-  }
-});
+  const cardd = new Card();
+  const cardList = new CardList(placesList, initialCards, cardd);
+
+  const formValidation = new FormValidation(popupEdit, ERROR_MESSAGES);
+  const formValidationPopupCard = new FormValidation(popupAdd, ERROR_MESSAGES);
+
+  const popupEditProfile = new Popup(popupEdit);
+  const popupAddCard = new Popup(popupAdd);
+  const popupOpenPic = new Popup(popupPic);
+
+  const userInfo = new UserInfo(popupEdit);
+
+  buttonEdit.addEventListener('click', () => {
+    popupEditProfile.open();
+
+    userInfo.setUserInfo();
+    formValidation.checkInputValidity(inputName, errorName);
+    formValidation.checkInputValidity(inputJob, errorJob);
+
+    formValidation.setSubmitButtonState(formEdit, formEditButton);
+
+  });
+  popupButtonAdd.addEventListener('click', () => popupAddCard.open());
+  formAddButton.addEventListener('click', function () { //событие добавления карточки
+    popup.classList.remove('popup_is-opened');
+
+    cardList.addCard(formAdd.name.value, formAdd.link.value);
+    formValidation.setSubmitButtonState(formAdd, formAddButton);
+  });
+
+  placesList.addEventListener('click', (event) => { //фукция открытия картинки в попап окне
+    const element = event.target.getAttribute('style'); // получил адрес атрибута style
+
+    if (event.target.classList.contains('place-card__image')) {
+      popupOpenPic.open();
+      popupContent.classList.add('popup-pic__img');
+      popupContent.setAttribute('style', element);
+    }
+  });
+
+  document.querySelector('.popup__close-pic').addEventListener('click', function (event) {  //событие закрытия картинки
+    document.querySelector('.popup-pic').classList.remove('popup_is-opened');
+  });
+  cardList.render();
+})();
