@@ -1,9 +1,9 @@
 class CardList {
-    constructor(container, arr, card) {
-        console.log(card);
+    constructor(container, card, api, userInfo) {
         this.container = container;
-        this.arr = arr;
         this.card = card;
+        this.api = api;
+        this.userInfo = userInfo;
         this.container.addEventListener('click', this.eventHandler);
     }
 
@@ -19,8 +19,8 @@ class CardList {
         this.container.append(place);
     }
 
-    render() {
-        for (let {name, link} of this.arr) {
+    render(initCards) {
+        for (const {name, link} of initCards) {
             this.addCard(name, link);
         }
     }
