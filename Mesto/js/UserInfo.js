@@ -24,7 +24,6 @@ class UserInfo {
                  console.log(err);
         });
 
-        /* Можно лучше: закрытие попапа и очистку формы также делать только когда сервер ответил подтверждением, т.е. в блоке then */
         this.item.classList.remove('popup_is-opened');
         this.form.reset();
     }
